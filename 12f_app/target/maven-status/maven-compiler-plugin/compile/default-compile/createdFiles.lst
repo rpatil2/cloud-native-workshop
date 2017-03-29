@@ -1,0 +1,6 @@
+com\github\rpatil2\app\StockItemRepository.class
+com\github\rpatil2\app\domain\model\ItemType.class
+com\github\rpatil2\app\StockSpringBootStarter.class
+com\github\rpatil2\app\App.class
+com\github\rpatil2\app\domain\model\StockItem.class
+com\github\rpatil2\app\StockResource.class
