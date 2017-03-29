@@ -1,0 +1,12 @@
+language: java
+before_script: cd 12f_app
+script: mvn clean install
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: Ritika.Patil@sas.com
+  api: https://api.run.pivotal.io
+  organization: Ritika.Patil
+  space: development
+  password:
+    secure: jUaflpPb7zgMLePBeOH3l3RwMMI3INcEUO037yT1JDmV3W7Yg2kxz4qoDGnCO4r0bQ1bGgBakLFkkWnohpkLPmPU45ItvcgdAHhDKZg4e96X1FkM44czuHkLmexewQajOny3Dw8PmTlGvd//p30sryy38KRIZKzDJbfcl8Q+hbeop9fxXLjCcaeZGCJmyFbWu8G79LsDPDqMcEHUDto5Rt0QkCgR2+HlnYAm2x2ZxPinEwg0LUvMhyZAdCOnMooNbkwCc87S1bBDEK3cBp9XkiWdEfRPdprOzilPSJ8Mif9XpLs5CpYghQmdtcOEHktdSI43IGyLBGPAyS4syHiLqG+Srwahvs47AZ3WPZs2Ex05t/IyzoFbOfHMeA9+TibnuJSL0HlACq/eqrIfmljPKUJzZ2UThENpYxPOjlfXtKeh0Da/28zRz0+be6j0UEIOteFvBemmgsMISOarDwBNG+OmYWuc3ctoxfeOX/XIUj7YfVWql0jGy1QMczd6YvFP7IWfx/nwPQRJm7kgEGtENh8JBANSXJaw2pCBB2zcs3/1ggjL0DACpx0wE72n3vzG+et+fnXK+6Z6c0CHLT1cKmSHZ6vcfTt6KIsrIOcO6GX8lltTzeDNPdYd/WIvtG8ZI91GhEOm9K0xwimC5WlZDdRboqUPQk7+u7qW/yJK6eY=
