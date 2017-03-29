@@ -1,5 +1,6 @@
 com\github\rpatil2\app\StockSpringBootStarter.class
 com\github\rpatil2\app\SecurityConfig.class
+com\github\rpatil2\app\EnvResource.class
 com\github\rpatil2\app\App.class
 com\github\rpatil2\app\SecuredResource.class
 com\github\rpatil2\app\StockItemRepository.class
