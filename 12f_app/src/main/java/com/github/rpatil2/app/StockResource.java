@@ -72,4 +72,9 @@ public class StockResource {
 	public Iterable<StockItem> items() {
 	    return stockItemRepository.findAll();
 	}
+	
+    @RequestMapping(value = "/ping", method = RequestMethod.GET)
+    public String ping() {
+        return "Ping";
+    }
 }
